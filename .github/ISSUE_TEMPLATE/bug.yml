@@ -1,0 +1,44 @@
+name: Bug 报告
+description: 插件功能异常、崩溃、与预期不符,或因插件缺失某能力导致管制信息出错
+labels: ["T-Bug"]
+body:
+  - type: input
+    id: plugin-version
+    attributes:
+      label: 插件版本
+      description: vatSys 中 Info → About 可见,或安装包文件名
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: vatsys-version
+    attributes:
+      label: vatSys 版本
+      placeholder: "1.x.x"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么?与预期有何不同?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      description: 尽量具体:席位、机场、涉及的航班/机组、操作顺序
+      placeholder: |
+        1. 连线 ZBAA_APP,开启 Toggle Metric
+        2. 对 CCA1234 打开 CPDLC 编辑器
+        3. ……
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 截图 / 日志(可选)
+      description: 截图直接拖入;有报错弹窗请附全文
+    validations:
+      required: false

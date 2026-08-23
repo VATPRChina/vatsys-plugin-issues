@@ -1,0 +1,82 @@
+name: 功能请求
+description: 希望插件新增或改进的功能
+labels: ["T-Feature", "S-待运行部确认"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提出需求!请注意:
+        - 功能请求默认需要**运行部在本 issue 内确认**后才会进入排期,确认前请耐心等待。
+        - 如果是**现有功能坏了或行为不对**(包括缺失导致管制信息出错),请改用 Bug 报告模板。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 需求性质
+      description: 这个需求主要属于哪一类?
+      options:
+        - 提升管制效率(减少手工操作、降低负荷)
+        - 程序·数据跟进(AIP 修订、运行部程序或数据变更,插件需跟进)
+        - 贴近真实运行(更接近真实管制运行的习惯与格式)
+        - 训练需求(教学、考核、sweatbox 场景)
+        - 活动保障(联飞活动、大流量专项需求)
+        - 界面与易用性(窗口布局、颜色、字体、交互)
+        - 其他
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: 你的视角
+      description: 你主要从哪个席位/角色提出这个需求?
+      options:
+        - 放行 / 地面
+        - 塔台
+        - 进近
+        - 区调
+        - 训练科
+        - 运行部
+        - 飞行员
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 现在你是怎么做的
+      description: 没有这个功能时,你在什么场景下、手工是怎么完成的?有没有绕过办法?
+      placeholder: 例:区调给下高指令时,我需要自己心算米制高度层再逐条手打进 CPDLC……
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: 遇到的频率
+      description: 上面这个场景多久遇到一次?
+      options:
+        - 几乎每次连线都遇到
+        - 经常遇到
+        - 偶尔遇到
+        - 很少遇到
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望插件做什么
+      description: 希望在哪一步、由插件做什么?涉及格式/单位/按钮交互的请写具体(如 1200M 是纯数字还是带 M 结尾)
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 真实运行依据(选填)
+      description: AIP 章节、运行部程序文件、真实运行中的做法等。选了"贴近真实运行"或"程序·数据跟进"的请尽量填写,这也是运行部确认时最需要的材料。
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: 参考(选填)
+      description: 可供参考的其他管制软件/现实雷达行为、相关截图等
+    validations:
+      required: false
