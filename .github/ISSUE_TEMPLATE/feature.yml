@@ -33,10 +33,8 @@ body:
         - 塔台
         - 进近
         - 区调
-        - 训练科
-        - 运行部
+        - 教员
         - 飞行员
-        - 其他
     validations:
       required: true
   - type: textarea
