@@ -1,6 +1,7 @@
 name: Bug 报告
 description: 插件功能异常、崩溃、与预期不符,或因插件缺失某能力导致管制信息出错
 labels: ["T-Bug"]
+assignees: ["0x00A0"]
 body:
   - type: input
     id: plugin-version

@@ -1,6 +1,7 @@
 name: 功能请求
 description: 希望插件新增或改进的功能
 labels: ["T-Feature", "S-待运行部确认"]
+assignees: ["0x00A0", "klcz05"]
 body:
   - type: markdown
     attributes:
