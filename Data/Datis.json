@@ -74,7 +74,7 @@
           "oprInfo_Cn": "",
           "transAlt": "3000",
           "transLevel": "3600",
-          "transHeight": "",
+          "transHeight": "2100",
           "notam": "",
           "notam_Cn": ""
         },
@@ -87,7 +87,7 @@
           "oprInfo_Cn": "",
           "transAlt": "3000",
           "transLevel": "3600",
-          "transHeight": "",
+          "transHeight": "2100",
           "notam": "",
           "notam_Cn": ""
         }
@@ -623,7 +623,7 @@
           "exp": "ILS-X",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "",
+          "transAlt": "3000",
           "transLevel": "3600",
           "transHeight": "3000",
           "notam": "IN CASE OF MISSED APCH, CLIMB TO 1200 METERS ON QFE",
@@ -636,7 +636,7 @@
           "exp": "ILS-X",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "",
+          "transAlt": "3000",
           "transLevel": "3600",
           "transHeight": "3000",
           "notam": "IN CASE OF MISSED APCH, CLIMB TO 1200 METERS ON QFE",
@@ -1923,7 +1923,7 @@
           "oprInfo_Cn": "",
           "transAlt": "2700",
           "transLevel": "3300",
-          "transHeight": "",
+          "transHeight": "2700",
           "notam": "",
           "notam_Cn": ""
         },
@@ -1936,7 +1936,7 @@
           "oprInfo_Cn": "",
           "transAlt": "2700",
           "transLevel": "3300",
-          "transHeight": "",
+          "transHeight": "2700",
           "notam": "",
           "notam_Cn": ""
         }
@@ -2293,8 +2293,8 @@
           "exp": "ILSDME",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "1500",
+          "transLevel": "2100",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2306,8 +2306,8 @@
           "exp": "ILSDME",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "1500",
+          "transLevel": "2100",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2324,8 +2324,8 @@
           "exp": "ILSDME Z",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "1800",
+          "transLevel": "",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2337,8 +2337,8 @@
           "exp": "ILSDME Z",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "1800",
+          "transLevel": "",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2448,8 +2448,8 @@
           "exp": "ILS",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "",
+          "transLevel": "1800",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2461,8 +2461,8 @@
           "exp": "ILS",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "",
+          "transLevel": "1800",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2479,8 +2479,8 @@
           "exp": "ILSDME",
           "oprInfo": "IN CAES OF MISSED APPROACH, EXPECT CLIMB STRAIGHT AHEAD TO NINE HUNDRED METERS ON QNH OR BY ATC",
           "oprInfo_Cn": "如果复飞，预计保持跑道航向，上到修正海压900米或按照管制指令",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "2700",
+          "transLevel": "3300",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -2492,8 +2492,8 @@
           "exp": "ILSDME",
           "oprInfo": "IN CAES OF MISSED APPROACH, EXPECT CLIMB STRAIGHT AHEAD TO NINE HUNDRED METERS ON QNH OR BY ATC",
           "oprInfo_Cn": "如果复飞，预计保持跑道航向，上到修正海压900米或按照管制指令",
-          "transAlt": "3000",
-          "transLevel": "3600",
+          "transAlt": "2700",
+          "transLevel": "3300",
           "transHeight": "",
           "notam": "",
           "notam_Cn": ""
@@ -3008,7 +3008,7 @@
           "oprInfo_Cn": "",
           "transAlt": "3000",
           "transLevel": "3600",
-          "transHeight": "",
+          "transHeight": "1800",
           "notam": "AIRCRAFT MUST ACTIVATE THE ADS-B EQUIPMENT DURING GROUND OPERATIONS",
           "notam_Cn": "航空器在地面运行时必须开启ADS-B设备"
         },
@@ -3021,7 +3021,7 @@
           "oprInfo_Cn": "",
           "transAlt": "3000",
           "transLevel": "3600",
-          "transHeight": "",
+          "transHeight": "1800",
           "notam": "AIRCRAFT MUST ACTIVATE THE ADS-B EQUIPMENT DURING GROUND OPERATIONS",
           "notam_Cn": "航空器在地面运行时必须开启ADS-B设备"
         }
@@ -3068,9 +3068,9 @@
           "exp": "ILSDME",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
-          "transHeight": "",
+          "transAlt": "4200",
+          "transLevel": "4800",
+          "transHeight": "3000",
           "notam": "",
           "notam_Cn": ""
         },
@@ -3081,9 +3081,9 @@
           "exp": "ILSDME",
           "oprInfo": "",
           "oprInfo_Cn": "",
-          "transAlt": "3000",
-          "transLevel": "3600",
-          "transHeight": "",
+          "transAlt": "4200",
+          "transLevel": "4800",
+          "transHeight": "3000",
           "notam": "",
           "notam_Cn": ""
         }
